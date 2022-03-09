@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Montserrat:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+#code_area {
+    width: 300px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: white;
+    margin-top: 70px;
+    z-index: 1;
+    height: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+}
+
+p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.479);
+    padding-top: 16px;
+    font-size: 23px;    
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+.main_frame{
+    width: 300px;
+    height: 426px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 24px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+    border-radius: 20px;
+}
+
+#line{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    right: 0;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    margin-right: 14px;
+    font-size: 30px;
+    font-family: 'Fredoka', sans-serif;
+    background-color: white;
+    border: 1px solid ;
+    position: relative;
+    outline:none;
+    left: 11px;
+    border-radius: 100%;
+}
+
+button:hover {
+    color: rgb(126, 126, 126);
+}
+
+button:active {
+    color: rgb(216, 60, 60);
+}
+
+#copied {
+    font-size: 25px;
+}
+
+#inp {
+    opacity: 0;
+}
+
+#rea {
+    text-align: center;
+    padding: 0px;
+    background-color: white;
+    color: rgb(158, 158, 158);
+    font-family: 'Fredoka', sans-serif;
+    /* border: 2px solid red */
+    max-width: 200px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+    opacity: 2;
+    border-radius: 20px;
+    opacity: 0;
+}
